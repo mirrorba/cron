@@ -1,1 +1,1 @@
-rsync -rtlvH --delete-after --delay-updates --safe-links rsync://mirror.23media.com/archlinux/ /var/www/mirror.ba/archlinux
+rsync -rtlvH --delete-after --delay-updates --safe-links rsync://ftp.halifax.rwth-aachen.de/archlinux/ /var/www/mirror.ba/archlinux --progress --stats
